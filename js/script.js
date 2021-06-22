@@ -1,12 +1,3 @@
- // LAZYLOAD
-
- $(document).ready(function() {
-    $('div').is(":visible").each(function () {
-       $(this).find('img').each(function() {
-         $(this).attr("src", $(this).data("src"));
-       });
-    });
-  });
 
 
    // GALLERIA
