@@ -1,19 +1,4 @@
 
-function loadImagesInSequence(images) {
-  if (!images.length) {
-    return;
-  }
-
-  var img = new Image(),
-      url = images.shift();
-
-  img.onload = function(){ loadImagesInSequence(images) };
-  img.src = url;
-}
-
-loadImagesInSequence(['one.gif', 'two.png', 'three.gif', 'four.png']);
-
-
    // GALLERIA
 
 window.onload = function() {
