@@ -1,4 +1,4 @@
-
+ 
    // GALLERIA
 
 window.onload = function() {
@@ -285,6 +285,9 @@ document.getElementById('text13').onclick = function cos() {
      text13.style.display = "none";
     text14.style.display = "inline-flex";
     
+    var audio = document.getElementById("sentieri1");
+audio.play();
+    
         }
 
 document.getElementById('text14').onclick = function cos() {
@@ -319,6 +322,10 @@ document.getElementById('text14').onclick = function cos() {
      text13.style.display = "none";
       text14.style.display = "none";
     text15.style.display = "inline-flex";
+    
+    
+
+
     
         }
 
@@ -480,6 +487,11 @@ document.getElementById('text18').onclick = function cos() {
     text18.style.display = "none";
     text19.style.display = "inline-flex";
     
+    var audio = document.getElementById("sentieri1"); 
+audio.pause();
+    var audio = document.getElementById("piedi");
+audio.play();
+    
         }
 
 document.getElementById('text19').onclick = function cos() {
@@ -524,6 +536,11 @@ document.getElementById('text19').onclick = function cos() {
     text18.style.display = "none";
     text19.style.display = "none";
     text20.style.display = "inline-flex";
+    
+    var audio = document.getElementById("piedi"); 
+audio.pause();
+
+
     
         }
 
@@ -725,6 +742,9 @@ document.getElementById('text23').onclick = function cos() {
      text23.style.display = "none";
     text24.style.display = "inline-flex";
     
+    var audio = document.getElementById("stazione");
+audio.play();
+    
         }
 
 document.getElementById('text24').onclick = function cos() {
@@ -779,6 +799,11 @@ document.getElementById('text24').onclick = function cos() {
      text23.style.display = "none";
     text24.style.display = "none";
     text25.style.display = "inline-flex";
+    
+    var audio = document.getElementById("stazione"); 
+audio.pause();
+
+
     
         }
 
@@ -4352,6 +4377,9 @@ document.getElementById('text62').onclick = function cos() {
     text62.style.display = "none";
     text63.style.display = "inline-flex";
     
+   var audio = document.getElementById("sentieri2");
+audio.play();
+    
         }
 
 document.getElementById('text63').onclick = function cos() {
@@ -4485,6 +4513,11 @@ document.getElementById('text63').onclick = function cos() {
     text62.style.display = "none";
     text63.style.display = "none";
     text64.style.display = "inline-flex";
+    
+    var audio = document.getElementById("sentieri2"); 
+audio.pause();
+
+
     
         }
 
@@ -4900,6 +4933,10 @@ document.getElementById('text66').onclick = function cos() {
     text66.style.display = "none";
     text67.style.display = "inline-flex";
     
+    var audio = document.getElementById("sentieri2");
+audio.play();
+
+    
         }
 
 document.getElementById('text67').onclick = function cos() {
@@ -5185,6 +5222,11 @@ document.getElementById('text68').onclick = function cos() {
     text67.style.display = "none";
     text68.style.display = "none";
     text69.style.display = "inline-flex";
+    
+    var audio = document.getElementById("sentieri2"); 
+audio.pause();
+
+
     
         }
 
@@ -5480,6 +5522,10 @@ document.getElementById('text70').onclick = function cos() {
       text70.style.display = "none";
     text71.style.display = "inline-flex";
     
+    var audio = document.getElementById("stazione");
+audio.play();
+
+    
         }
 
 document.getElementById('text71').onclick = function cos() {
@@ -5629,6 +5675,11 @@ document.getElementById('text71').onclick = function cos() {
       text70.style.display = "none";
     text71.style.display = "none";
     text72.style.display = "inline-flex";
+    
+    var audio = document.getElementById("stazione"); 
+audio.pause();
+
+
     
         }
 
