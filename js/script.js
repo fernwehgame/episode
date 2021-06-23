@@ -6768,3 +6768,13 @@ document.getElementById("vol").oninput = function() {
   var value = (this.value-this.min)/(this.max-this.min)*100
   this.style.background = 'linear-gradient(to right, #fff 0%, #fff ' + value + '%, transparent ' + value + '%, transparent 100%)' 
 };
+
+
+
+
+//preloader
+
+$(window).load(function() {
+		// Animate loader off screen
+		$(".loadgif").fadeOut("slow");;
+	});
