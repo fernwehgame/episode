@@ -14,6 +14,7 @@
   min-width: 100%;
   min-height: 100%;
     max-width: 100%;
+    
 }
 
 head {
@@ -977,6 +978,23 @@ input[type=range]::-webkit-slider-thumb {
 
 
 
+/*PRELOADER*/
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loadgif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	  min-width: 100%;
+  min-height: 100%;
+    max-width: 100%;
+	z-index: 9999;
+	background: url(../img/preloader.gif) no-repeat;
+    background-size: 100%; 
+    
+}
 
 
 /* RESPONSIVE */
@@ -984,6 +1002,22 @@ input[type=range]::-webkit-slider-thumb {
 
 /*TELEFONI*/
 @media only screen and (max-width: 480px) {
+    
+    
+    
+     .loadgif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	  min-width: 100%;
+  min-height: 100%;
+    max-width: 100%;
+	z-index: 9999;
+	background: url(../img/preloader.gif) center no-repeat;
+    
+}
+    
+    
    #bg {
   object-fit: cover;
         object-position:left}  
@@ -1073,6 +1107,18 @@ input[type=range]::-webkit-slider-thumb {
 
 /*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
+    
+     .loadgif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	  min-width: 100%;
+  min-height: 100%;
+    max-width: 100%;
+	z-index: 9999;
+	background: url(../img/preloader.gif) center no-repeat;
+    
+}
         
      #bg {
   object-fit: cover;
@@ -1161,8 +1207,20 @@ input[type=range]::-webkit-slider-thumb {
 }
     
 /*PC PICCOLI*/
-@media only screen and (min-width: 1025px) and (max-width: 1500px) {
-        
+@media only screen and (min-width: 1025px) and (max-width: 1300px) {
+    
+    .loadgif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	  min-width: 100%;
+  min-height: 100%;
+    max-width: 100%;
+	z-index: 9999;
+	background: url(../img/preloader.gif) center no-repeat;
+    
+}
+    
 }
     
 /*PC GRANDI*/
@@ -1176,4 +1234,18 @@ input[type=range]::-webkit-slider-thumb {
     h3 {
     margin-top: -1.5%;
 }
+    
+    
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loadgif {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/preloader2.gif) center no-repeat #121212;
+}
+
 }
